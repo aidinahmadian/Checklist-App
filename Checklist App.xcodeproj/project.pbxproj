@@ -13,6 +13,7 @@
 		E80E6DB0262AF80700DD93CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E80E6DAE262AF80700DD93CC /* Main.storyboard */; };
 		E80E6DB2262AF80800DD93CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E80E6DB1262AF80800DD93CC /* Assets.xcassets */; };
 		E80E6DB5262AF80800DD93CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E80E6DB3262AF80800DD93CC /* LaunchScreen.storyboard */; };
+		E80E6DBE262AFE2700DD93CC /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80E6DBD262AFE2700DD93CC /* ChecklistItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E80E6DB1262AF80800DD93CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E80E6DB4262AF80800DD93CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E80E6DB6262AF80800DD93CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E80E6DBD262AFE2700DD93CC /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E80E6DA8262AF80700DD93CC /* AppDelegate.swift */,
 				E80E6DAA262AF80700DD93CC /* SceneDelegate.swift */,
 				E80E6DAC262AF80700DD93CC /* ViewController.swift */,
+				E80E6DBD262AFE2700DD93CC /* ChecklistItem.swift */,
 				E80E6DAE262AF80700DD93CC /* Main.storyboard */,
 				E80E6DB1262AF80800DD93CC /* Assets.xcassets */,
 				E80E6DB3262AF80800DD93CC /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E80E6DAD262AF80700DD93CC /* ViewController.swift in Sources */,
+				E80E6DBE262AFE2700DD93CC /* ChecklistItem.swift in Sources */,
 				E80E6DA9262AF80700DD93CC /* AppDelegate.swift in Sources */,
 				E80E6DAB262AF80700DD93CC /* SceneDelegate.swift in Sources */,
 			);
